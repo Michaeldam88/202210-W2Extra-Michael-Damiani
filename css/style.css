@@ -11,9 +11,7 @@ nav {
 nav img {
     width: 40px;
     height: 40px;
-}
-
-.dropdown {
+    cursor: pointer;
 }
 
 .dropbtn {
@@ -52,4 +50,83 @@ nav img {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+h4 {
+    color: #ed6436;
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 5px;
+}
+
+.orange-button {
+    background-color: #ed6436;
+    font-weight: 900;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px;
+    width: 100px;
+    align-self: center;
+    margin: 30px 0 40px 0;
+    border: none;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+}
+
+.orange-button:hover {
+    background-color: #f39879b6;
+    cursor: pointer;
+}
+
+.orange-button:active {
+    background-color: #ed6436;
+    border-radius: 15px;
+}
+
+main img {
+    border-radius: 30px;
+    margin-bottom: 25px;
+    filter: brightness(80%);
+}
+
+main img:hover {
+    filter: brightness(100%);
+}
+
+main div {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+main p {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    left: 50%;
+    bottom: 22%;
+    font-size: 0.8rem;
+    transform: translate(-50%, -50%);
+}
+
+main h3 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    left: 50%;
+    bottom: 10%;
+    font-size: 1.3rem;
+    transform: translate(-50%, -50%);
 }
