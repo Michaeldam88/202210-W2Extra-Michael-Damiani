@@ -1,3 +1,6 @@
+body {
+    font-family: Nunito;
+}
 nav {
     padding: 10px;
     display: flex;
@@ -23,9 +26,10 @@ nav img {
     display: none;
     position: absolute;
     right: 0;
-    background-color: #f9f9f9;
+    padding-top: 10px;
+    background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 6px 0px rgba(173, 169, 169, 0.2);
     z-index: 1;
 }
 
@@ -37,12 +41,12 @@ nav img {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #ed6436;
+    background-color: #ed6436b6;
     color: white;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #e7baab;
     color: black;
 }
 
